@@ -1,0 +1,17 @@
+
+.App{
+
+  background-color:none;
+}
+
+.description{
+  background-color: yellow;
+  display:inline-block;
+}
+.calendar{
+  
+  background-color: purple;
+    display:inline-block;
+    vertical-align: top;
+}
+
