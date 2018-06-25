@@ -1,14 +1,15 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import SubSection from './SubSection';
 
 const SectionOne = ({  }) => {
   var subItemsOne = ["inspect", "Progress"];
    var subItemsTwo = ["Project", "Motivation","Rejection"];
     var subItemsThree = ["Control"];
+    var subItemsFour = ["Discuss"];
+    
 
   return (
-    <div id='section_one'>
+    <div className='section_one'>
     <h1>DAILY STANDUP</h1>
 
      <SubSection 
@@ -22,6 +23,12 @@ const SectionOne = ({  }) => {
          <SubSection 
         title="When"
         subItems={subItemsThree}/>
+        
+        <SubSection 
+        title="What"
+        subItems={subItemsFour}/>
+        
+       
 
 
     </div>

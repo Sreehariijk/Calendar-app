@@ -6,7 +6,7 @@ class Calendar extends Component {
   render() {
     return (
       <div className="calendar">
-          <August title="August"/>
+          <August title="AUGUST 2018"/>
           <Logo />
       </div>
      

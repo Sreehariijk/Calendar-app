@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 const August = ({ title  }) => {
    
   return (
-    <div id='august'>
+    <div className='august'>
      <h2>{title}</h2>
      <p>August Month</p>
     </div>
