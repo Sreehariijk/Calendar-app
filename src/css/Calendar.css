@@ -1,0 +1,45 @@
+
+.caledar__Container{
+   margin:0px;
+   height:285px;
+}
+
+.calendar{
+    
+     margin-left:auto;
+    margin-right:auto; 
+}
+.week-day,
+.emptySlot,
+.current-day,
+.day{
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.week-day,
+.emptySlot,
+.current-day,
+.day{
+    
+    background-color: none;
+}
+.calendar__Header{
+    text-align: center;
+    color: white;
+    background-color: red;
+}
+.label-month  {
+ cursor:pointer;
+} 
+.month-popup{
+    position: absolute;
+    border: solid 2px skyblue;
+    background-color: yellow;
+}
+.month_names {
+    padding: 5px 5px;
+}
+a {
+text-decoration: none;
+}

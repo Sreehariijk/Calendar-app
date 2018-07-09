@@ -1,0 +1,10 @@
+.calendar_1 {
+  background-color: rgb(58, 58, 60);
+  vertical-align: top;
+  display:inline-block;
+  text-align: center;
+  /*height:662px;
+  width: 491px;*/
+   height:100vh;
+  width:30%;
+}
