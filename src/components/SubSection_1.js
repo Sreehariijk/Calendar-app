@@ -13,33 +13,31 @@ const SubSection_1 = ({ title, points }) => {
 
 
   const renderImage = (title) => {
+
+      switch(title) {
+        case "Objective" :
+        return <i class="fa fa-bullseye" aria-hidden="true"></i>;
+        break;
+        case "Who" :
+        return <i class="fa fa-user" aria-hidden="true"></i>;
+        break;
+        case "When" :
+        return <i class="fa fa-clock-o" aria-hidden="true"></i>;
+        break;
+        case "What" :
+        return<i class="fa fa-pencil-square-o" aria-hidden="true"></i>;
+        break;
+        case "Why" :
+        return<i class="fa fa-binoculars" aria-hidden="true"></i>;
+        break;
+        case "Which" :
+        return<i class="fa fa-hourglass-half" aria-hidden="true"></i>;
+        break;
+        case "Where" :
+        return<i class="fa fa-magic" aria-hidden="true"></i>;
+        break;
+      }
     
-  
-        
-   switch(title) {
-    case "Objective" :
-    return <i class="fa fa-bullseye" aria-hidden="true"></i>;
-    break;
-    case "Who" :
-    return <i class="fa fa-user" aria-hidden="true"></i>;
-    break;
-    case "When" :
-    return <i class="fa fa-clock-o" aria-hidden="true"></i>;
-    break;
-    case "What" :
-    return<i class="fa fa-pencil-square-o" aria-hidden="true"></i>;
-    break;
-    case "Why" :
-    return<i class="fa fa-binoculars" aria-hidden="true"></i>;
-    break;
-    case "Which" :
-    return<i class="fa fa-hourglass-half" aria-hidden="true"></i>;
-    break;
-    case "Where" :
-    return<i class="fa fa-magic" aria-hidden="true"></i>;
-    break;
-   }
- 
   }; 
 
 return (

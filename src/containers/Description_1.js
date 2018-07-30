@@ -7,19 +7,19 @@ class Description_1 extends Component {
 
     render()
     {       
-
-      const renderItems = () => {
+            const renderItems = () => {
               return this.props.Titles.map((item, i) => {
               const k=this.props.Items[i];
               return <SubSection_1 title={item} points={k}/> }) 
             }
 
+     
           return (
             <div className='description' style={this.props.style}>
                 <h1>{this.props.caption}</h1>
-                { renderItems()}
+                {renderItems()}
             </div>
-                );
+         );
    }
 }
 
